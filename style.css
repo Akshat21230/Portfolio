@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    height: 200vh;
+    width: 100%;
+    background-image: url(unnamed.png);
+    background-size: cover;
+    background-position: center;
+}
+navigator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+selection{
+    color:brown;
+}
+navigator ul li{
+    list-style-type: none;
+    display:inline-block;
+    
+}
+navigator ul li a{
+    color:white;
+    text-decoration: none;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+navigator ul li a:hover{
+    color: brown;
+}
+.button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2x solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+.button:hover{
+    transform: scale(1.5);  
+}
+.Info{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translate(-50%); 
+    margin-left: 20px;
+}
+.m{
+    color: rgb(191, 3, 3);
+    margin-left: 200px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h1{
+    color: white;
+    margin-left: 200px;
+    /* margin: 20px 0px 20px; */
+    font-size: 50px;
+    /* margin-bottom: 30px; */
+}
+h3{
+    color:white;
+    margin-left: 200px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+o{
+    color:rgb(191, 3, 3);
+}
+/* .about image{
+    height: 400px;
+    width: 200x;
+} */
+.atext{
+    color: white;
+    width: 600px;
+}
+.about{
+    height: 2000px;
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.atext h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.atext h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.atext p{
+    color: blueviolet;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.about img{
+    margin-left: 100px;
+    height: auto;
+    width: 430px;
+}
+.about button:hover{
+    transform: scale(1.2);  
+}
+.service{
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card{
+    height: 365px;
+    width: 355px;
+    padding: 20px 35px;
+    background: grey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card .button{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border: 2x solid transparent; 
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+.card .button:hover{
+        transform: scale(1.5);  
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:rgb(191, 3, 3) ;
+}
+h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.desc p{
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
